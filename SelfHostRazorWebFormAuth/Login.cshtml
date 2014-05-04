@@ -1,0 +1,21 @@
+﻿<div>
+    <form role="form" action="/Auth/Credentials" method="post">
+        <div>
+            <label for="InputName">User</label>
+            <div class="input-group">
+                <input type="text" name="username" placeholder="Enter username" required>
+            </div>
+        </div>
+
+        <div>
+            <label for="InputPassword">Password</label>
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Enter Password" required>
+            </div>
+        </div>
+
+        <input type="hidden" name="continue" value="/Cars" />
+
+        <input type="submit" name="submit" value="Enter" />
+    </form>
+</div>

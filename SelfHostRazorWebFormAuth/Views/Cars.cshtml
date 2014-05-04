@@ -1,0 +1,12 @@
+﻿@inherits ViewPage<CarResponse>
+
+<table>
+    @foreach (var item in Model.Cars)
+    {
+        <tr>
+            <td>@item.Plate</td>
+        </tr>
+    }
+</table>
+
+<a href="/auth/logout">logout</a>
